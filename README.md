@@ -19,6 +19,8 @@ This can be deployed to Chrome and other Chromium-based browsers by navigating t
 ### Building from scratch
 
 To build this from scratch, run:
-`npx create-react-app <appname>`
-Then copy the manifest.json from this repository and replace the auto-generated one.
+`npx create-react-app <appname>`.
+
+Then, copy the manifest.json from this repository and replace the auto-generated one.
+
 Then, to avoid errors, prepend `INLINE_RUNTIME_CHUNK=false` to the build command in package.json. 
